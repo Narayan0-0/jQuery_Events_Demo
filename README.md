@@ -2,6 +2,11 @@
 
 A comprehensive interactive website demonstrating various jQuery events and DOM manipulation techniques using jQuery, HTML, CSS, and Bootstrap.
 
+
+### Live Demo
+You can also view the live demo at: [jquery_demo](https://narayan0-0.github.io/jQuery_Events_Demo/)
+
+
 ## 🚀 Features
 
 ### Core jQuery Events
@@ -37,14 +42,14 @@ A comprehensive interactive website demonstrating various jQuery events and DOM 
 
 ## 📁 Project Structure
 
-\`\`\`
+```bash
 jquery-events-demo/
 │
 ├── index.html          # Main HTML file with jQuery CDN
 ├── styles.css          # Custom CSS styles
 ├── script.js           # jQuery JavaScript code
 └── README.md           # Project documentation
-\`\`\`
+```
 
 ## 🎯 Learning Objectives
 
@@ -67,17 +72,17 @@ This project demonstrates:
 
 ### Installation
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/jquery-events-demo.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd jquery-events-demo
-   \`\`\`
+   ```
 
 3. Open `index.html` in your web browser:
-   \`\`\`bash
+   ```bash
    # On macOS
    open index.html
    
@@ -86,10 +91,8 @@ This project demonstrates:
    
    # On Linux
    xdg-open index.html
-   \`\`\`
+   ```
 
-### Live Demo
-You can also view the live demo at: [Your GitHub Pages URL]
 
 ## 💡 How to Use
 
