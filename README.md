@@ -115,7 +115,7 @@ To add new jQuery events:
 3. Use jQuery selectors and event methods
 
 ### jQuery Selectors
-\`\`\`javascript
+```javascript
 // ID selector
 $("#elementId")
 
@@ -127,7 +127,7 @@ $("tagName")
 
 // Attribute selector
 $("[attribute='value']")
-\`\`\`
+```
 
 ### Styling with jQuery
 - Use `.addClass()`, `.removeClass()`, `.toggleClass()`
@@ -137,30 +137,30 @@ $("[attribute='value']")
 ## 📚 Code Examples
 
 ### jQuery Event Handler Example
-\`\`\`javascript
+```javascript
 // Button click event with jQuery
 $("#btn-add").click(function() {
   calculate("add");
 });
-\`\`\`
+```
 
 ### jQuery DOM Manipulation Example
-\`\`\`javascript
+```javascript
 // Dynamic content update with method chaining
 $("#result").text("New content").addClass("highlight").fadeIn();
-\`\`\`
+```
 
 ### jQuery Form Handling Example
-\`\`\`javascript
+```javascript
 // Form submission with jQuery
 $("#user-form").submit(function(event) {
   event.preventDefault();
   // jQuery form processing
 });
-\`\`\`
+```
 
 ### jQuery Hover Effects
-\`\`\`javascript
+```javascript
 // Hover with jQuery
 $("#color-box").hover(
   function() {
@@ -170,7 +170,7 @@ $("#color-box").hover(
     $(this).removeClass("bg-danger").addClass("bg-primary");
   }
 );
-\`\`\`
+```
 
 ## 🔧 jQuery Methods Used
 
@@ -189,23 +189,12 @@ $("#color-box").hover(
 4. Push to the branch (`git push origin feature/jquery-enhancement`)
 5. Create a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - jQuery Foundation for the amazing library
 - Bootstrap team for the responsive framework
 - jQuery documentation and community
 - Stack Overflow jQuery community
-
-## 📞 Contact
-
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
 
 ## 🔗 Useful Links
 
